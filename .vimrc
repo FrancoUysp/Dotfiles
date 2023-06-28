@@ -1,12 +1,11 @@
-
 "----------------------------- core ----------------------------------
 set clipboard=unnamed
 syntax on
-set ai 
+set ai
 set number relativenumber
 set textwidth=80
 set shiftwidth=4
-set tabstop=4
+set tabstop=2
 set noexpandtab
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
@@ -27,4 +26,5 @@ nnoremap sj <c-w>j
 nnoremap sk <c-w>k
 nnoremap sl <c-w>l
 nnoremap <s-q> ggVG
+nnoremap gj <c-o>
 
